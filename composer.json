@@ -1,0 +1,18 @@
+{
+    "name": "domieder0/random-words",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Domieder0\\RandomWords\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dominique Eder",
+            "email": "deder@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
