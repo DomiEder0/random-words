@@ -28,6 +28,11 @@ class Sentence
     /**
      * @param string $sentence
      */
+
+    public function getRandomUpperSentece(): string {
+        return  strtoupper($this->getRandomSentence());
+    }
+
     public function getRandomSentence() : string
     {
         $words = explode(' ', $this->sentence);
